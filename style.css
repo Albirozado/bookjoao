@@ -90,10 +90,7 @@
     -ms-transform: translateY(-40%);
     transform: translateY(-40%);
 }
-video{
-  display: block;
-  margin-bottom: 0.5rem;
-}
+
 
 .header .conteudo .text{
     color: #ffffff;
@@ -155,6 +152,8 @@ button a{
   iframe{
     width:350px;
     height:200px;
+    display: block;
+  
   }
 
 
@@ -459,7 +458,10 @@ header a{
   background-color: #CD60FF;
   padding: 1rem 2rem;
   font-size: 1.5rem;
-  display: block;
+  background: linear-gradient(90deg, rgba(30,62,83,1) 0%, rgba(70,69,120,1) 0%, rgba(121,77,168,1) 67%, rgba(179,87,222,1) 100%);
+  box-shadow: 0px 4px 60px 5px rgba(127,0,178,0.54);
+  display: inline-block;
+
 }
 /*
 .button-48 {
@@ -495,7 +497,6 @@ header a{
   display: inline-block;
   padding: 0.8rem 1rem;
   background: rgb(30,62,83);
-  background: linear-gradient(90deg, rgba(30,62,83,1) 0%, rgba(70,69,120,1) 0%, rgba(121,77,168,1) 67%, rgba(179,87,222,1) 100%);
   box-shadow: 0px 4px 60px 5px rgba(127,0,178,0.54);
 -webkit-box-shadow: 0px 4px 60px 5px rgba(127,0,178,0.54);
 -moz-box-shadow: 0px 4px 60px 5px rgba(127,0,178,0.54);

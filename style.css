@@ -466,7 +466,7 @@ a {
 */
 
 .header .conteudo .text a{
-  font-family: "Gothabold";
+  
   font-size: 1.1rem;
   padding: 1.5rem 1rem;
   text-transform: uppercase;
@@ -480,6 +480,7 @@ a {
 
 .button-48 {
 padding: 1rem 0;
+border: solid 2px #470b63;
 appearance: none;
 background-color: #470b63;
 color: #000000;

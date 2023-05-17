@@ -465,10 +465,13 @@ a {
 }
 */
 
-.header .conteudo .text a{
+
+
+
+ a{
   font-family: "Gothabold";
   font-size: 1.1rem;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2.5rem;
   text-transform: uppercase;
 
 
@@ -480,12 +483,13 @@ a {
 
 .button-48 {
 padding: 1rem 0;
-border: solid 2px #470b63;
+border: solid 2px #0197f6;
 appearance: none;
-background-color: #470b63;
+background-color: #470b63;;
 color: #000000;
 cursor: pointer;
 display: inline-block;
+font-size: 14px;
 font-weight: 500;
 letter-spacing: 0;
 line-height: 1em;
@@ -496,14 +500,13 @@ position: relative;
 text-align: center;
 text-decoration: none;
 text-rendering: geometricprecision;
+transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
 user-select: none;
 -webkit-user-select: none;
 touch-action: manipulation;
 vertical-align: baseline;
 white-space: nowrap;
 }
-
-
   @media (max-width: 954px){
     iframe{
       width:350px;

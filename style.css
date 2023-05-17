@@ -152,7 +152,11 @@ button a{
   iframe{
     width:350px;
     height:200px;
+
+
+
     display: block;
+    margin: 1rem 0;
   
   }
 
@@ -261,6 +265,22 @@ h2{
   text-align: center;
 
 }
+.conteudo_content .text{
+  padding: 0.5rem 1rem;
+  font-family: "Montserrat";
+}
+.conteudo_content h3{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  line-height: 1.4rem;
+}
+.conteudo_content p{
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #c2bfbf;
+}
 .conteudo_content .conteudo_box{
   /* From https://css.glass */
 background: rgba(23, 11, 58, 0.33);
@@ -271,8 +291,7 @@ backdrop-filter: blur(3.5px);
 border: 1px solid rgba(23, 11, 58, 0.29);
 background-image: linear-gradient(to right bottom, #904e6e, #733a62, #562855, #381948, #170b3a);
 border: 1.5px #ccc solid;
-padding: 0.5rem;
-
+padding: 1rem 0;
 }
 
 .classico_section{
@@ -505,17 +524,26 @@ touch-action: manipulation;
 vertical-align: baseline;
 white-space: nowrap;
 }
+
+.sapsap{
+  display: flex;
+  justify-content: center;
+
+}
+
   @media (max-width: 954px){
     iframe{
-      width:350px;
-      height:200px;
+      width:300px;
+      height:150px;
+
+      margin: 1rem auto;
     }
-    
     .butao{
       display: flex;
       justify-content: center;
-      margin: 1rem 0;
     }
+    
+
     .section_especial h1{
       text-align: center;
       font-size: 1.8rem;
@@ -545,7 +573,7 @@ white-space: nowrap;
     }
   
     .conteudo_content{
-      padding: 0 2rem;
+      padding: 0 0.5rem;
 
     }
     h2{
@@ -555,17 +583,17 @@ white-space: nowrap;
     
     .content_voce{
       top: 35%;
-      left: 0;
+      left: 6%;
       -ms-transform: translateY(-35%);
       transform: translateY(-35%);
       background: rgba(23, 11, 58, 0.33);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(10.5px);
--webkit-backdrop-filter: blur(10.5px);
-border: 1.5px #ccc solid;
-padding: 0.5rem;
-margin-top: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10.5px);
+      -webkit-backdrop-filter: blur(10.5px);
+      border: 1.5px #ccc solid;
+      padding: 0.5rem;
+      margin-top: 2rem;
 
     }
     

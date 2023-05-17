@@ -466,7 +466,7 @@ a {
 */
 
 .header .conteudo .text a{
-  
+  font-family: "Gothabold";
   font-size: 1.1rem;
   padding: 1.5rem 1rem;
   text-transform: uppercase;

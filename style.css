@@ -454,6 +454,14 @@ text-align: center;
   color: var(--titulo_destaca);
 
 }
+
+header a{
+  background-color: #CD60FF;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  display: block;
+}
+/*
 .button-48 {
   padding: 1rem 0;
   border: solid 2px #0197f6;
@@ -494,6 +502,7 @@ text-align: center;
 border-radius: 1.5rem;
 }
 
+*/
 
   @media (max-width: 954px){
     iframe{

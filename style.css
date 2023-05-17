@@ -454,6 +454,44 @@ text-align: center;
 
 }
 
+a{
+  font-size: 1.8rem;
+  padding: 1.5rem 2.5rem;
+
+
+
+
+
+}
+
+.button-48 {
+  padding: 1rem 0;
+  border: solid 2px #0197f6;
+  appearance: none;
+  background-color: #02182b;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/*
 a {
   font-family: "gothabold";
   text-transform: uppercase;
@@ -463,6 +501,7 @@ a {
   display: inline-block;
 
 }
+*/
 /*
 .button-48 {
   padding: 1rem 0;

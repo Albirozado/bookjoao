@@ -291,8 +291,10 @@ backdrop-filter: blur(3.5px);
 border: 1px solid rgba(23, 11, 58, 0.29);
 background-image: linear-gradient(to right bottom, #904e6e, #733a62, #562855, #381948, #170b3a);
 border: 1.5px #ccc solid;
-padding: 1rem 0;
+padding: 1.5rem 0 0 0;
+overflow: hidden;
 }
+
 
 .classico_section{
   font-family: "gothamedium";

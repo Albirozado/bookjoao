@@ -149,7 +149,7 @@ button a{
     
   }
 */
-  iframe{
+  video{
     width:350px;
     height:200px;
 
@@ -534,7 +534,7 @@ white-space: nowrap;
 }
 
   @media (max-width: 954px){
-    iframe{
+    video{
       width:300px;
       height:150px;
 

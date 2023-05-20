@@ -256,8 +256,10 @@ h2{
 }
 .conteudo_content img{
   max-width: 100%;
+  
 }
 .conteudo_content{
+  position: relative;
   padding: 0 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -283,12 +285,10 @@ h2{
 }
 .conteudo_content .conteudo_box{
   /* From https://css.glass */
-background: rgba(23, 11, 58, 0.33);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(3.5px);
 -webkit-backdrop-filter: blur(3.5px);
-border: 1px solid rgba(23, 11, 58, 0.29);
 background-image: linear-gradient(to right bottom, #904e6e, #733a62, #562855, #381948, #170b3a);
 border: 1.5px #ccc solid;
 padding: 1.5rem 0 0 0;
@@ -358,10 +358,14 @@ overflow: hidden;
   right: 5%;
   -ms-transform: translateY(-30%);
   transform: translateY(-30%);
+  max-width: 100%;
+  width: 30rem;
+  overflow-y: auto;
 }
+
 .content_voce label{
   display: flex;
-  align-items: center;
+  align-items: s;
   margin: 0.5rem 0;
 }
 .content_voce label i{
@@ -585,7 +589,7 @@ white-space: nowrap;
     
     .content_voce{
       top: 35%;
-      left: 6%;
+      left: 0;
       -ms-transform: translateY(-35%);
       transform: translateY(-35%);
       background: rgba(23, 11, 58, 0.33);
@@ -595,7 +599,8 @@ white-space: nowrap;
       -webkit-backdrop-filter: blur(10.5px);
       border: 1.5px #ccc solid;
       padding: 0.5rem;
-      margin-top: 2rem;
+      margin: 2rem 1rem 0rem 1rem; 
+      
 
     }
     

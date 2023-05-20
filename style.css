@@ -384,7 +384,9 @@ overflow: hidden;
   line-height: 1.8rem;
   
 }
-
+.depoime{
+  margin-top: 1.5rem;
+}
 .depoimentos_box{
   margin: 0 1rem;
   z-index: 1000;
